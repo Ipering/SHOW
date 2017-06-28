@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--适配IE-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--适配移动端-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title><%= title %></title>
+		<!--导入bootstrap的全局css样式-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/botlist.css"/>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: white;
+		}
+			/*head*/
+			.a a{
+				 font-size: 15px;
+			}
+			.a{
+				border-radius: 13px;
+                margin: auto 15px;
+			}
+			.a:hover{
+				border: 1px solid white;
+			}
+			.navbar{
+				background: black;
+				height: 68px;
+				position: relative;
+			}
+			.navbar-brand{
+				margin-top: 5px;
+			}
+			#shin{
+				width: 150px;
+				height: 33px;
+				position: absolute;
+				left: 10px;
+			}
+			.collapse{
+				position: absolute;
+				right: 10px;
+				margin-top: 10px;
+			}
+		.navbar-toggle{
+			margin-top: 18px;
+			border: 0px solid black;
+		}
+		#bimg{
+			float: left;
+			width: 24px;
+			height: 14px;
+		}
+		/*body*/
+	.panel{
+	width: 100%;
+	height: 595px;
+	margin-bottom: 0 ;
+	position: relative;
+         }
+       .panel:nth-child(2n+1){
+         	background: #DFDFDF;
+         }
+         .left1{
+         	width: 35%;
+         	height: 100%;
+         	margin-top: 150px;
+         	margin-left: 10%;
+         }
+         .left2{
+         	width: 45%;
+         	height: 100%;
+         	margin-top: 150px;
+         	margin-left: 10%;
+         }
+          .pn{
+         	width: 30%;
+         	height: 245px;
+         }
+         .pg{
+         	width: 45%;
+         }
+         h2{
+         	font-size: 22px;
+         	color: gray;
+         }
+         p{
+         	font-size: 17px;
+         }
+         #ig4{
+         	width: 350px;
+         	height: 430px;
+         	position: absolute;
+         	right: 0;
+         	bottom: 0px;
+         }
+          #ig5{
+         	width: 350px;
+         	height: 460px;
+         	position: absolute;
+         	right: 45px;
+         	top: 0;
+         }
+		/*foot*/
+		#m1{
+			text-align: center;
+			margin-top:60px ;
+			margin-bottom: 20px;
+		}
+		#fou{
+			text-align: center;
+			margin: 20px auto;
+		}
+		#fou>img{
+			margin: 0 5px;
+		}
+		#sp{
+			display: block;
+			text-align: center;
+			font-size: 5px;
+			color: gainsboro;
+		}
+		</style>
+	</head>
+	<body>
+						<!--head-->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+      	data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      	<img src="img-3/img1/nav.png" id="bimg"/>
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+      	<img src="img-3/img1/shininglogo.png" id="shin"/>
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right" >
+      		<li class="a"><a href="/face1" id="a1" style="color: gray">Home</a></li>
+         <li class="a"><a href="/face2" id="a2" style="color: gray">About </a></li>
+          <li class="a"><a href="/face3" id="a3" style="color: gray">Rendering</a></li>
+        <li class="a"><a href="/face4" id="a4" style="color: gray">3D Animation</a></li>
+          <li class="a"><a href="/face5" id="a5" style="color: gray">Bin</a></li>
+            <li class="a"><a href="/face6" id="a6" style="color: gray">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--body-->
+<div id="content">
+<div class="panel"  data-section-name="page1">
+	<div class="left1">
+		<h2>1 MODEL COMPLETION</h2>
+		<p>Establishing and creating the vi sible and multi-dimension Architecture, Structural and MEP</p>
+	<img src="img-3/img5/BIM-p1-1.png" alt="" class="pn"/>
+	<img src="img-3/img5/BIM-p1-2.png" alt="" class="pn"/>
+	<img src="img-3/img5/BIM-p1-3.png" alt="" class="pn"/>
+	</div>
+	<img src="img-3/img5/building1-half-t.png" alt="" id="ig4"/>
+</div>
+<div class="panel"  data-section-name="page2">
+	<div class="left2">
+		<h2>2 CLASH DETECTION</h2>
+		<p>Completing the clash detection among various design parties,engineers and even different organisations in con struction drawings.</p>
+	<img src="img-3/img5/BIM-p2-1.jpg" alt="" class="pg" />
+	<img src="img-3/img5/BIM-p2-2.jpg" alt=""  class="pg"/>
+	</div>
+	<img src="img-3/img5/building1-half-b.png" alt="" id="ig5"/>
+</div>
+
+
+<div class="panel" data-section-name="page3">
+	<div class="left1">
+		<h2>1 MODEL COMPLETION</h2>
+		<p>Establishing and creating the vi sible and multi-dimension Architecture, Structural and MEP</p>
+	<img src="img-3/img5/BIM-p1-1.png" alt="" class="pn"/>
+	<img src="img-3/img5/BIM-p1-2.png" alt="" class="pn"/>
+	<img src="img-3/img5/BIM-p1-3.png" alt="" class="pn"/>
+	</div>
+	<img src="img-3/img5/building1-half-t.png" alt="" id="ig4"/>
+</div>
+<div class="panel"  data-section-name="page4">
+	<div class="left2">
+		<h2>2 CLASH DETECTION</h2>
+		<p>Completing the clash detection among various design parties,engineers and even different organisations in con struction drawings.</p>
+	<img src="img-3/img5/BIM-p2-1.jpg" alt="" class="pg" />
+	<img src="img-3/img5/BIM-p2-2.jpg" alt=""  class="pg"/>
+	</div>
+	<img src="img-3/img5/building1-half-b.png" alt="" id="ig5"/>
+</div>
+<div class="panel"  data-section-name="page5">
+		<div class="left1">
+		<h2>1 MODEL COMPLETION</h2>
+		<p>Establishing and creating the vi sible and multi-dimension Architecture, Structural and MEP</p>
+	<img src="img-3/img5/BIM-p1-1.png" alt="" class="pn"/>
+	<img src="img-3/img5/BIM-p1-2.png" alt="" class="pn"/>
+	<img src="img-3/img5/BIM-p1-3.png" alt="" class="pn"/>
+	</div>
+	<img src="img-3/img5/building1-half-t.png" alt="" id="ig4"/>
+</div>
+</div>
+<!--foot-->
+<div id="foot">
+	<div id="m1">
+		<img src="img-3/img1/footer0.jpg" alt=""  id="img1"/>
+	</div>
+	<div id="fou">
+		<img src="img-3/img1/footer1.jpg" alt="" id="img2"/>
+		<img src="img-3/img1/footer2.jpg" alt=""  id="img3"/>
+		<img src="img-3/img1/footer3.jpg" alt=""  id="img4"/>
+		<img src="img-3/img1/footer4.jpg" alt=""  id="img5"/>
+	</div>
+	<span id="sp">Copyright © 1998-2015 shining Group</span>
+</div>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.scrollify.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.masonry.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script type="text/javascript">
+//head
+$("#a1").hover(function(){
+$("#a1").css("color","white");
+},function(){
+	$("#a1").css("color","gray");
+});
+$("#a2").hover(function(){
+$("#a2").css("color","white");
+},function(){
+	$("#a2").css("color","gray");
+});
+$("#a3").hover(function(){
+$("#a3").css("color","white");
+},function(){
+	$("#a3").css("color","gray");
+});
+$("#a4").hover(function(){
+$("#a4").css("color","white");
+},function(){
+	$("#a4").css("color","gray");
+});
+$("#a5").hover(function(){
+$("#a5").css("color","white");
+},function(){
+	$("#a5").css("color","gray");
+});
+$("#a6").hover(function(){
+$("#a6").css("color","white");
+},function(){
+	$("#a6").css("color","gray");
+});
+//显示导航
+var flag = true;
+var aa = $(".a");
+	$("#bimg").click(function() {
+		$("#hou").remove();
+		if(flag) {
+			var Div = "<div id = 'hou'></div>"
+			$(".container").after(Div);
+			$("#hou").css({
+				width: "140px",
+				height: "220px",
+				background: "black",
+				transtion:"all 3s ease-in-out 1s",
+				position: "absolute",
+				zIndex:"1",
+				right: "0",
+				top: "68px",
+				opacity:"0.5"
+			})
+			var a = aa.clone(true);
+			$("#hou").append(a);
+			a.css({
+				textAlign:"right",
+				textDecoration: "none",
+				color: "red",
+				display: "block",
+				height: "36px",
+				lineHeight: "36px",
+				padding: "0 5px",
+				borderRadius: "5px"
+			})
+			flag = false;
+		} else {
+			flag = true;
+		}
+	})
+//body
+	$(function() {
+	$('.panel').css({'height': $(".panel").height()});
+	$.scrollify({
+		section: '.panel'
+	});
+});
+	//foot
+	var img1=document.getElementById("img1");
+	var img2=document.getElementById("img2");
+	var img3=document.getElementById("img3");
+	var img4=document.getElementById("img4");
+	var img5=document.getElementById("img5");
+	img1.onmouseenter=function(){
+		img1.src="img-3/img1/footer0_h.jpg";
+	}
+	img1.onmouseleave=function(){
+		img1.src="img-3/img1/footer0.jpg";
+	}
+
+	img2.onmouseenter=function(){
+		img2.src="img-3/img1/footer1_h.jpg";
+	}
+	img2.onmouseleave=function(){
+		img2.src="img-3/img1/footer1.jpg";
+	}
+
+	img3.onmouseenter=function(){
+		img3.src="img-3/img1/footer2_h.jpg";
+	}
+	img3.onmouseleave=function(){
+		img3.src="img-3/img1/footer2.jpg";
+	}
+
+	img4.onmouseenter=function(){
+		img4.src="img-3/img1/footer3_h.jpg";
+	}
+	img4.onmouseleave=function(){
+		img4.src="img-3/img1/footer3.jpg";
+	}
+
+	img5.onmouseenter=function(){
+		img5.src="img-3/img1/footer4_h.jpg";
+	}
+	img5.onmouseleave=function(){
+		img5.src="img-3/img1/footer4.jpg";
+	}
+</script>
+	</body>
+</html>

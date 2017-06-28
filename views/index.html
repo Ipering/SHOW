@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <style type="text/css">
+    *{
+      padding: 0;
+      margin: 0;
+      }
+    body{
+        text-align: center;
+    }
+    a{
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    h1{
+      margin-bottom: 50px;
+    }
+    p{
+      margin: 50px;
+    }
+    </style>
+  </head>
+  <body ng-app="myapp" class="ng-scope" >
+
+
+    <div class="jumbotron">
+    	<div class="container">
+    		<h1>欢迎页面</h1>
+    		<p>欢迎来到登录页面</p>
+    		<p id="navigation">
+          <a class="btn btn-primary btn-lg" role="button" href="/login">登录</a>
+          <a class="btn btn-primary btn-lg" role="button" href="/register">注册</a>
+    		</p>
+    	</div>
+    </div>
+
+
+
+  </body>
+
+</html>
